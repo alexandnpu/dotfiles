@@ -1,0 +1,15 @@
+apply plugin: 'application'
+
+repositories {
+    mavenCentral()
+}
+
+mainClassName = 'com.alex.AlexClient'
+applicationDefaultJvmArgs = [
+    /*"-Dlogback.configurationFile=/home/chao.zheng/logback.xml",*/
+]
+
+dependencies {
+    compile group: 'ch.qos.logback', name: 'logback-classic', version: '1.1.2'
+    compile group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.5'
+}

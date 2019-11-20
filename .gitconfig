@@ -1,0 +1,17 @@
+[core]
+    excludesfile = ~/.gitignore
+    editor = vim
+[push]
+    default = nothing
+[alias]
+    st = status
+    co = checkout
+    cm = commit
+    br = branch
+    lol = log --oneline --graph --decorate
+
+[includeIf "gitdir:~/alexgit/"]
+    path = ~/alexgit/.gitconfig
+[includeIf "gitdir:~/workgit/"]
+    path = ~/workgit/.gitconfig
+
