@@ -76,8 +76,8 @@ filetype plugin indent on    " required
     "set term=xterm-256color
     set background=dark
     "let g:solarized_termcolors=256
-    colorscheme solarized
-    "colorscheme desert 
+    "colorscheme solarized
+    colorscheme desert 
     "colorscheme molokai
     set cursorline
     set cursorcolumn
@@ -234,7 +234,7 @@ let g:choosewin_overlay_enable = 1
 " airline {{{
     "let g:airline_detect_whitespace = 0
     "let g:airline_theme='murmur'
-    let g:airline_theme='solarized'
+    let g:airline_theme='powerlineish'
     let g:airline#extensions#whitespace#enabled = 0
     let g:airline_exclude_preview = 1
     let g:airline#extensions#tabline#enabled = 1
