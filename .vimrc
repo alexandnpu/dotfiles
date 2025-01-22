@@ -319,4 +319,8 @@ endif
 "
 " show the absolute path of current file
 " press 1 then ctrl g
-"
+
+" After setting all the colors we need, then we should set the transparent background color.
+" As I always use vim inside tmux, and tmux will show a different background color when the pane is inactive,
+" if I donot set the transparent background color here, then the tmux inactive pane background color will not work.
+hi Normal guibg=NONE ctermbg=NONE
