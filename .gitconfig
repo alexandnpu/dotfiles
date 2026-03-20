@@ -9,7 +9,7 @@
     cm = commit
     br = branch
     lol = log --oneline --graph --decorate
-    loa = log --branches --remotes --tags --graph --oneline --decorate
+    loa = log --branches --remotes --tags --graph --oneline --decorate --pretty=format:'%C(auto)%h %C(blue)[%an]%C(reset) %s %C(green)%cr%C(reset)'
 
 [includeIf "gitdir:~/alexgit/"]
     path = ~/alexgit/.gitconfig
