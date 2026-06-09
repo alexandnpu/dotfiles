@@ -1,0 +1,7 @@
+Host *
+    ControlMaster auto
+    ControlPath ~/.ssh/sockets/cm-%C
+    ControlPersist 24h
+
+    ServerAliveInterval 15
+    ServerAliveCountMax 3
